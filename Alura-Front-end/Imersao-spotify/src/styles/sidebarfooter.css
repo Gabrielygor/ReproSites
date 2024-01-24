@@ -174,4 +174,13 @@ body{
     border-radius: 20px;
 }
 
+.disclaimer-premium{
+    display: flex;
+    background: linear-gradient(to right, #ff66b2, #8a2be2, #0b0082);
+    width: 100vw;
+    height: 80px;
+    margin-top: 400px;
+    margin-left: -12px;
+    color:#fff ;
+}
 
