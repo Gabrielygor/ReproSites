@@ -110,6 +110,7 @@ body {
     cursor: pointer;
 }
 
+
 .home .informacoes .btn-comprar:hover {
     background-color: #fff;
     color: #000;
@@ -232,4 +233,29 @@ body {
 
 .compre-ja .btn-plataformas .plataformas li:nth-child(5):hover {
     background-color: #fcaf17;
+}
+
+/* Botão de Volta ao topo */
+
+.bnt-volta-topo {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    font-family: 'ChaletComprime';
+    width: 34px;
+    height: 34px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: all .3s ease-in;
+}
+
+.bnt-volta-topo__btn{
+    position: fixed;
+    right: 34px;
+    bottom: 30px;
+}
+
+.bnt-volta-topo:hover {
+    background-color: #fff;
+    color: #000;
 }
