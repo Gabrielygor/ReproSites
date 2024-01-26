@@ -1,3 +1,9 @@
+
+
+html {  /* Deixa a rolagem automatica do site suave*/
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #282828;
     color: #fff;
