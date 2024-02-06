@@ -1,5 +1,6 @@
 const perguntas = [
-    {
+    //Lista de pergunta desenvilvidas com ajuda do ChatGpt
+    { 
         pergunta: "Qual é o nome do protagonista de 'Naruto'?",
         respostas: [
             "Itachi",
@@ -88,7 +89,52 @@ const perguntas = [
             "Inosuke Hashibira"
         ],
         correta: 1
-    }
+    },
+    {
+        pergunta: "Qual é o nome do protagonista de 'One Punch Man'?",
+        respostas: [
+            "Saitama",
+            "Genos",
+            "Mumen Rider"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é o autor de 'Hunter x Hunter'?",
+        respostas: [
+            "Eiichiro Oda",
+            "Togashi Yoshihiro",
+            "Kazue Kato"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o título original de 'Sword Art Online'?",
+        respostas: [
+            "Log Horizon",
+            "No Game No Life",
+            "Sword Art Online"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o nome do animal de estimação de Luffy em 'One Piece'?",
+        respostas: [
+            "Zoro",
+            "Chopper",
+            "Nami"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem é o protagonista de 'Tokyo Ghoul'?",
+        respostas: [
+            "Hideyoshi Nagachika",
+            "Ken Kaneki",
+            "Touka Kirishima"
+        ],
+        correta: 1
+    },
 ];
 
 const quiz = document.querySelector('#quiz')
