@@ -73,7 +73,7 @@ const perguntas = [
         correta: 2
     },
     {
-        pergunta: "Quem é o Deus da Morte em 'Death Note'?",
+        pergunta: "Quem é um dos Shinigamis em 'Death Note'?",
         respostas: [
             "Ryuk",
             "Light Yagami",
@@ -109,19 +109,19 @@ const perguntas = [
         correta: 1
     },
     {
-        pergunta: "Qual é o título original de 'Sword Art Online'?",
+        pergunta: "Qual é o nome do protagonista de 'High School DXD'?",
         respostas: [
-            "Log Horizon",
-            "No Game No Life",
-            "Sword Art Online"
+            "Yamato",
+            "Akeno",
+            "Issei"
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é o nome do animal de estimação de Luffy em 'One Piece'?",
+        pergunta: "Qual é o nome do cozinheiro da tripulação Luffy em 'One Piece'?",
         respostas: [
             "Zoro",
-            "Chopper",
+            "Sanji",
             "Nami"
         ],
         correta: 1
