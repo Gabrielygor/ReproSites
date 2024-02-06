@@ -137,22 +137,22 @@ const perguntas = [
     },
 ];
 
-const quiz = document.querySelector('#quiz')
-const template = document.querySelector('template')
+const quiz = document.querySelector('#quiz') //Seleciona a div quiz
+const template = document.querySelector('template') //Seleciona o elemento template
 
-
-for(const item of perguntas) {
+//laço que usa a lista de pergunta para criar o Quiz
+for(const item of perguntas) {  
     const quizitem = template.content.cloneNode(true)
-    quizitem.querySelector('h3').textContent = item.pergunta
+    quizitem.querySelector('h3').textContent = item.pergunta  //Muda o h3 de acordo com a pergunta
 
     for(let respostas of item.respostas) {
-        const dt = quizitem.querySelector('dl dt').cloneNode(true)
+        const dt = quizitem.querySelector('dl dt').cloneNode(true) 
         dt.querySelector('span').textContent = respostas
 
         quizitem.querySelector('dl').appendChild(dt)
     }
 
-    quizitem.querySelector('dl dt').remove()
+    quizitem.querySelector('dl dt').remove() //Remove a "OPÇÃO A DO HTML"
 
 
     quiz.appendChild(quizitem)
