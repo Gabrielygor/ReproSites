@@ -1,13 +1,13 @@
 const perguntas = [
     //Lista de pergunta desenvilvidas com ajuda do ChatGpt
-    { 
-        pergunta: "Qual é o nome do protagonista de 'Naruto'?",
+    {
+        pergunta: "Qual é o nome do antagonista de 'Naruto'?",
         respostas: [
             "Itachi",
             "Naruto",
             "Sasuke"
         ],
-        correta: 1
+        correta: 2
     },
     {
         pergunta: "Quem é o criador do 'One Piece'?",
@@ -46,7 +46,7 @@ const perguntas = [
         correta: 1
     },
     {
-        pergunta: "Qual é o nome do clã de ninjas em 'Naruto'?",
+        pergunta: "Qual é o nome de um clã de ninjas em 'Naruto'?",
         respostas: [
             "Hyuga",
             "Ambu",
@@ -64,13 +64,13 @@ const perguntas = [
         correta: 2
     },
     {
-        pergunta: "Qual é o título original de 'My Hero Academia'?",
+        pergunta: "Quem é o príncipe dos Sayajins em 'Dragpn Ball Z'?",
         respostas: [
-            "Fairy Tail",
-            "One Punch Man",
-            "Boku no Hero Academia"
+            "Vegeta",
+            "Goku",
+            "Broly"
         ],
-        correta: 2
+        correta: 0
     },
     {
         pergunta: "Quem é um dos Shinigamis em 'Death Note'?",
@@ -120,7 +120,7 @@ const perguntas = [
     {
         pergunta: "Qual é o nome do cozinheiro da tripulação Luffy em 'One Piece'?",
         respostas: [
-            "Zor",
+            "Zoro",
             "Sanji",
             "Nami"
         ],
@@ -137,17 +137,37 @@ const perguntas = [
     },
 ];
 
+const corretas = new Set()
+const totalDePerguntas = perguntas.lengt
+const mostrarTotal = document.querySelector('#acertos span')
+mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+
+
+
 const quiz = document.querySelector('#quiz') //Seleciona a div quiz
 const template = document.querySelector('template') //Seleciona o elemento template
 
 //laço que usa a lista de pergunta para criar o Quiz
-for(const item of perguntas) {  
+for (const item of perguntas) {
     const quizitem = template.content.cloneNode(true)
     quizitem.querySelector('h3').textContent = item.pergunta  //Muda o h3 de acordo com a pergunta
 
-    for(let respostas of item.respostas) {
-        const dt = quizitem.querySelector('dl dt').cloneNode(true) 
+    for (let respostas of item.respostas) {
+        const dt = quizitem.querySelector('dl dt').cloneNode(true)
         dt.querySelector('span').textContent = respostas
+        dt.querySelector('input').setAttribute('name', 'pergunta' + perguntas.indexOf(item))
+        dt.querySelector('input').value = item.respostas.indexOf(respostas)
+
+        dt.querySelector('input').onchange = (event) => {
+            const estaCorreta = event.target.value == item.correta //False or True
+            corretas.delete(item)
+            if (estaCorreta) {
+                corretas.add(item)
+            }
+            mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+            console.log(corretas.size)
+        }
+
 
         quizitem.querySelector('dl').appendChild(dt)
     }
