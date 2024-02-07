@@ -1,3 +1,29 @@
-*{
-    background-color: gray;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+* , html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+
+main {
+    padding: 1.3rem;
+    max-width: 640px;
+    margin: 0 auto 4rem;
+}
+
+#acertos {
+     text-align: center;
+     background-color: rgb(157, 255, 0);
+
+     position: fixed;
+     bottom: 0;
+     left: 0;
+
+     width: 100%;
+     padding: .5rem;
 }
