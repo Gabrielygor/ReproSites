@@ -140,7 +140,7 @@ const perguntas = [
 const corretas = new Set()
 const totalDePerguntas = perguntas.lengt
 const mostrarTotal = document.querySelector('#acertos span')
-mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+mostrarTotal.textContent = corretas.size + ' de ' + '15'
 
 
 
@@ -164,7 +164,7 @@ for (const item of perguntas) {
             if (estaCorreta) {
                 corretas.add(item)
             }
-            mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+            mostrarTotal.textContent = corretas.size + ' de ' + '15'
             console.log(corretas.size)
         }
 
