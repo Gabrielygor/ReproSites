@@ -4,9 +4,14 @@
 * , html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: #0F172A;
 }
 
 
@@ -15,6 +20,104 @@ main {
     max-width: 640px;
     margin: 0 auto 4rem;
 }
+
+header {
+    padding: 1.2rem;
+    max-width: 640px;
+    margin: 3rem auto 64px;
+
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #f1f5f9;
+    margin-top: 1.5rem;
+}
+
+#quiz {
+    counter-reset: quiz-item;
+}
+
+.quiz-item {
+    margin-top: 2rem;
+    border: 1px solid #475569;
+    border-radius: .5rem;
+
+    overflow: hidden;
+}
+
+.quiz-item:hover {
+    box-shadow: 0px 5px 5px 5px #47556934;
+}
+
+
+.quiz-item h3 {
+    padding: 15px 20px;
+    color: #e2e8f0;
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    background-color: #1e293b;
+}
+
+.quiz-item h3::before {
+    counter-increment: quiz-item;
+    content: counter(quiz-item);
+
+    background-color: #475569;
+    width: 2rem;
+    height: 2rem;
+    font-size: 12px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+.quiz-item dl {
+    padding: 20px 24px;
+    display: grid;
+    gap: 8px;
+}
+
+.quiz-item dl dt {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #e2e8f0;
+}
+
+input {
+    all: unset;
+    border: 1px solid #94a3b8;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+input:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+
+    background-color: #A3E635;
+    border-radius: 50%;
+}
+
+
 
 #acertos {
      text-align: center;
@@ -27,3 +130,7 @@ main {
      width: 100%;
      padding: .5rem;
 }
+
+
+
+
