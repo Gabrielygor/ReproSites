@@ -118,7 +118,7 @@ const perguntas = [
         correta: 2
     },
     {
-        pergunta: "Qual é o nome do cozinheiro da tripulação Luffy em 'One Piece'?",
+        pergunta: "Qual é o nome do cozinheiro da tripulação de Luffy em 'One Piece'?",
         respostas: [
             "Zoro",
             "Sanji",
