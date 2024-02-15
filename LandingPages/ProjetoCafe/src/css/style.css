@@ -11,6 +11,7 @@ html {  /* Deixa a rolagem automatica do site suave*/
 
 body {
     max-width: 1440px;
+    margin: 0 auto;
     
 }
 
