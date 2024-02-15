@@ -1,0 +1,81 @@
+* {
+    font-weight: 300;
+    font-family: serif;
+}
+
+body {
+    max-width: 1440px;
+    
+}
+
+.cabecalho {
+    padding: 30px 15px;
+    position: relative;
+}
+
+.cabecalho .logo {
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.cabecalho nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px
+}
+
+.cabecalho ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+    font-weight: bold;
+}
+
+/* Section 1 */
+
+.painel {
+    background: url(https://s3-alpha-sig.figma.com/img/b428/a035/85e15d31bfc4558e26045047611df86c?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qL~uFBIOogNzLik8R0j1h~IhdhMhAvcEyztZ-2MgwnGDbA9~c8yQmQtxwdAfvQh1X8jGMjd97Usqb8N-9itxstEQYGnLoaWGFUeN4vOxJu8XS0RnClw7pHb2910KUUEWHEPnndHe66dXQp4MVcRYHdEuLlyNpuT8dUl3hREQf1pFvqNhEcCwFpi69ZTsAULDbOBmF6FKhgiGc80imONuFr8h1mN5-LCh8DaYLTJCEO5j5ZQ9zeJiiGEtyShysSyjkYf4tp8ffYzk6keqpKHAEBagisUop1QN8UT1vYbR2XbY801pf4deWqeQAgVDI7k1rrczWdqH2JMl1z7VbzGS0w__) center center no-repeat;
+    height: 600px;
+}
+
+.painel h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secao-com-texto {
+    padding: 153px;
+    text-align: center;
+}
+
+.secao-com-texto img {
+    height: 170px;
+    width: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {
+    font-size: 28px ;
+    width: 450px;
+}
