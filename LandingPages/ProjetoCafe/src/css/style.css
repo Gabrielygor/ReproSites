@@ -113,3 +113,27 @@ body {
     height: 300px;
     width: 50%;
 }
+
+.contato {
+    background: url(https://s3-alpha-sig.figma.com/img/c60c/ce49/0d426a3d2a62a091d6684452c14885e4?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IQ4OdegJNZzoqFIHkfSupkAP1e-Wd~Amx0RuMSJrhJQnWMizol4rYu3BnXU2Tann9TKhAB4SXjv-1TtS6JCm0RJz9hOkAyqSIl2Z82VhOeHoPBWSZOMyMayJRnSaYdQ~j-eAjjmaP4RDyy6LxrgfItJ~3joiioFZc3CS2quVnkjwD0zCZYtnwAS9a7DWpoFQF1ijWzKdyFNN88-LiWrjfGekTnAToT4zS63gK6uKiwTncaHPVPo8xWtgyVfgoVpxI-G0W5a-PTdJ3rsMSQ5RhoqM0gTg1DUTC9zqmldHOeq9WOkmJSzvRwkwowRVh7kbU7raXWWgqHxo6mmelX5gaA__) center center no-repeat;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+.contato h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto {
+    position: absolute;
+    top:30%;
+    left: 50%;
+}
