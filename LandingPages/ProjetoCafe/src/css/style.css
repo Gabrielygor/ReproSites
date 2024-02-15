@@ -19,7 +19,7 @@ body {
     position: relative;
 }
 
-.cabecalho .logo {
+.logo {
     width: 85px;
     height: 85px;
     display: inline-block;
@@ -136,4 +136,33 @@ body {
     position: absolute;
     top:30%;
     left: 50%;
+}
+
+.rodape {
+    background: url(https://s3-alpha-sig.figma.com/img/0277/431e/f19f8ee2759f12a8dd7431b1c0504df8?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F6arsaw48OCaHCMAyrAIIEVGNVJVtkz7g6W4Bgh1KB4ONpebjMWjujymRyPB3vu9hMLWKSipTrav1nbVE0RSaGPHga8dUxfFphVVaOk~jpiu-HvtUzvgjfD6OASkerSp-rG~yJ47LxTRKDetheYyeA-GD8KSg7XldfMZT45fp92BEDuyUB-i~HwzgTs8RdQTpbL8xbgfU7su~LjzxVk15JUgIpIrh8ODeZhb1yi8zMZpBhjJL-HkR2Y5ZYlNe2TXG-eroTZArlmVYrWVRi4xDwNDlEcOx4NJxal-MyoH5ywz9gvKZ05hBM~d9NGEkmHLLGUM~70D3~0Ne8HJ3cpPxw__) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: white;
+}
+
+.rodape ul li a:hover {
+    font-weight: bold;
+}
+
+.rodape .copyrigth {
+    color: white;
+    margin-top: 40px;
 }
