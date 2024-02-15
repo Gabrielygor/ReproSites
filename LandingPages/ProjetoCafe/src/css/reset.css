@@ -73,9 +73,14 @@ body {
 /* Remove default underline for links */
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* Remove outline on focused elements */
 :focus {
     outline: none;
+}
+
+img {
+    max-width: 100%;
 }
