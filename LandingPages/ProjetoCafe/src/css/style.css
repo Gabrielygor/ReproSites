@@ -2,6 +2,7 @@
 
 html {  /* Deixa a rolagem automatica do site suave*/
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 * {
@@ -12,7 +13,7 @@ html {  /* Deixa a rolagem automatica do site suave*/
 body {
     max-width: 1440px;
     margin: 0 auto;
-    
+    font-size: 1.6rem;
 }
 
 .cabecalho {
