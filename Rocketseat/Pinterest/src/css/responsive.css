@@ -1,0 +1,31 @@
+@media(min-width:1000px) {
+
+    main {
+        columns: 3;
+    }
+
+    a {
+        font-size: 2.2rem;
+    }
+
+    ion-icon {
+        font-size: 3.2rem;
+    }
+
+    footer img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+}
+
+
+@media(min-width:1500px) {
+
+    main {
+        columns: 4;
+    }
+
+
+
+}
