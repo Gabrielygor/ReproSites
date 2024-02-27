@@ -10,8 +10,6 @@
 ### Projeto Quiz Animes
 + <a href="https://gabrielygor.github.io/ReproSites/Rocketseat/Projeto-Quiz/index.html" target="_blank">Veja o projeto Quiz Animes</a>
 
-### Projeto Café
-+ <a href="https://gabrielygor.github.io/ReproSites/LandingPages/ProjetoCafe/index.html" target="_blank">Veja o projeto Café</a>
 
 
 ### Projeto Pinterest
