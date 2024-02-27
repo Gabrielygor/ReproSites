@@ -12,3 +12,7 @@
 
 ### Projeto Café
 + <a href="https://gabrielygor.github.io/ReproSites/LandingPages/ProjetoCafe/index.html" target="_blank">Veja o projeto Café</a>
+
+
+### Projeto Pinterest
++ <a href="https://gabrielygor.github.io/ReproSites/Rocketseat/Pinterest/index.html" target="_blank"> Veja o projeto Pinterest
