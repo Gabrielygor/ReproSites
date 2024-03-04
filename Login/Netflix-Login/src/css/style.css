@@ -1,4 +1,4 @@
-/* main {
+main {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.749);
@@ -82,10 +82,10 @@
     margin-left: 3px;
     margin-top: 70px;
     margin-bottom: 30px;
-} */
+}
 
 
-main {
+/* main {
     background-color: black;
     color: white;
     width: 100vw;
@@ -102,3 +102,16 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.inputs {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    gap: 30px;
+}
+
+.btn {
+    margin: auto;
+    background-color: red;
+} */
