@@ -9,12 +9,12 @@ main {
 
 
 .container {
-    background-color: rgba(0, 0, 0, 0.146);
+    /* background-color: rgba(0, 0, 0, 0.717); */
+    background-color: chocolate;
     width: 450px;
     height: 660px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
 .title{
@@ -22,9 +22,10 @@ main {
     color: #fff;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
-form {
+.inputs {
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -45,6 +46,30 @@ form {
     width: 75%;
 }
 
-.rememberhelp {
-    background-color: aqua;
+.remember {
+    display: flex;
+    color: white;
+    margin-top: 5px;
+    gap: 5px;
+    padding-left: 57px;
+}
+
+.remember input {
+    background-color: #333333;
+}
+
+.text2 {
+    padding-left: 125px;
+}
+
+
+.infomarcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+}
+
+.information {
+    color: white;
 }
