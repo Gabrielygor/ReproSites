@@ -61,7 +61,6 @@ main {
 .btn:hover {
     background-color: black;
     color: white;
-    border: 1px inset white;
 }
 
 .text2 {
