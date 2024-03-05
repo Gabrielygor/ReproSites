@@ -1,7 +1,7 @@
 
 .header {
     width: 100%;
-    background-color: rgb(187, 255, 0);
+    background-color: rgb(64, 64, 64);
 }
 
 .logo {
@@ -9,11 +9,10 @@
 
 }
 
-
 main {
     background-color: rgb(64, 64, 64);
     color: white;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,6 +61,7 @@ main {
 .btn:hover {
     background-color: black;
     color: white;
+    border: 1px inset white;
 }
 
 .text2 {
@@ -86,12 +86,5 @@ color: gray;
 .information a {
     color: blue;
 }
-
-.footer {
-    height: 20vw;
-    background-color: aqua;
-}
-
-
 
 
