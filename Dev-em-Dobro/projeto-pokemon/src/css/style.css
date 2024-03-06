@@ -5,3 +5,41 @@ body{
     background-color: grey;
     font-family: "Poppins", sans-serif;
 }
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.imagem-botao{
+    height: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.listagem-pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 50vw;
+    width: 130vh;
+}
+
+.cartao-pokemon {
+    background-color: wheat;
+    height: 300px;
+    width: 230px;
+}
