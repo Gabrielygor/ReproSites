@@ -13,4 +13,9 @@
 
 
 ### Projeto Pinterest
-+ <a href="https://gabrielygor.github.io/ReproSites/Rocketseat/Pinterest/index.html" target="_blank"> Veja o projeto Pinterest
++ <a href="https://gabrielygor.github.io/ReproSites/Rocketseat/Pinterest/index.html" target="_blank"> Veja o projeto Pinterest</a>
+
+
+
+### Projeto Pokemón
++ <a href="https://gabrielygor.github.io/ReproSites/Dev-em-Dobro/projeto-pokemon/index.html" target="_blank"> Veja o projeto Pokemón</a>
