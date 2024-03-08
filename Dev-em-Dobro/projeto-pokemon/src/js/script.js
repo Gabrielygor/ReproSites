@@ -7,14 +7,11 @@ const imagemBotaoTrocDeTema = document.getElementById("imagem-botao");
 botaoAlterarTema.addEventListener("click", () => {
     const modoEscuroAtivo = body.classList.contains("modo-escuro");
 
+    body.classList.toggle("modo-escuro")
 
     if (modoEscuroAtivo) {
-        body.classList.remove("modo-escuro")
         imagemBotaoTrocDeTema.setAttribute("src", "src/image/sun.png")
-
     } else {
-
-        body.classList.add("modo-escuro")
         imagemBotaoTrocDeTema.setAttribute("src", "src/image/moon.png")
     }
 
