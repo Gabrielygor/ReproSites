@@ -100,38 +100,6 @@ main {
     border: 1px solid white;
 }
 
-.grama {
-    background-color: greenyellow;
-}
-
-.veneno {
-    background-color: blueviolet;
-}
-
-.fogo {
-    background-color: crimson;
-}
-
-.voador {
-    background-color: gold;
-}
-
-.agua {
-    background-color: blue;
-}
-
-.inseto {
-    background-color: #a6b91a;
-}
-
-.fantasma {
-    background-color: dimgrey;
-}
-
-.pisicico {
-    background-color: rgb(244, 7, 204);
-}
-
 .descricao {
     max-height: 80px;
     overflow-y: scroll;
