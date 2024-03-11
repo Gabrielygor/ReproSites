@@ -3,12 +3,99 @@
 
 
 body {
-    background-color: gray;
+    background-color: black;
 }
 
-.personagen-btn-image {
-    width: 100px;
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80vw;
+
+    background: linear-gradient(-233deg, #000 40% , rgba(0,0,0,0) 65%) no-repeat;
+}
+
+.personagem {
+    display: none;
+    height: 99vh;
+}
+
+.selecionado {
+    display: block;
+}
+
+.personagem .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    min-height: 100vh;
+    max-width: 380px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 1;
+}
+
+.nome-personagem {
+    color: white;
+    font-size: 48px;
+    font-family: "Secular One" , sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: white;
+    font-family: "Rubik" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.logo {
+    background-image: url("../images/one-piece-logo.png");
+    background-size: cover;
     height: 100px;
+    width: 230px;
+    margin-bottom: 35px ;
+}
+
+.botoes {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 180px;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.personagem-btn {
+    width: 90px;
+    height: 86pxpx;
+}
+
+.personagem-btn-image {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.botao.selecionado {
+    transform: scale(1.2);
+}
+
