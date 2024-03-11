@@ -19,3 +19,9 @@
 
 ### Projeto Pokemón
 + <a href="https://gabrielygor.github.io/ReproSites/Dev-em-Dobro/projeto-pokemon/index.html" target="_blank"> Veja o projeto Pokemón</a>
+
+
+### Projeto One Piece
++ <a href="https://gabrielygor.github.io/ReproSites/Dev-em-Dobro/projeto-one-piece/index.html" target="_blank"> Veja o projeto One Piece</a>
+
+
