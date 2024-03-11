@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap');
 
 
 body {
     background-color: gray;
+}
+
+.personagen-btn-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
 }
