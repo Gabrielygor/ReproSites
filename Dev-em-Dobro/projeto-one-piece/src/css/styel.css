@@ -4,6 +4,7 @@
 
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 main::after {
@@ -74,28 +75,36 @@ main::after {
     position: fixed;
     top: 0;
     right: 0;
-
-    display: flex;
-    flex-direction: column;
+    
     min-height: 100vh;
     width: 180px;
+    
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 10px;
-
 
 }
 
 .personagem-btn {
     width: 90px;
-    height: 86pxpx;
+    height: 86px;
+    
 }
 
 .personagem-btn-image {
     border-radius: 50%;
+    border: 2px solid transparent;
+    border-radius: 50%;
     cursor: pointer;
 }
 
-.botao.selecionado {
+.personagem-btn-image:hover {
+    border: 2px solid white;
+}
+
+.personagem-btn.selecionado {
     transform: scale(1.2);
 }
 
