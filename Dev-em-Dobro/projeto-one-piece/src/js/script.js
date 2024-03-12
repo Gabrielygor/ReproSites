@@ -15,4 +15,4 @@ const botoesPersonagem = document.querySelectorAll('.personagem-btn button');
 
             imagensPersonagem[index].style.display = 'block';
         });
-    });
+    }); 
