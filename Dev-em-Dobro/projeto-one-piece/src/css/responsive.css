@@ -39,13 +39,16 @@
 }
 
 @media (max-width:540px) {
+
     main .personagem .image {
         height: auto;
+        margin: 4rem;
     }
 
     .conteudo .logo{
         height: 75px;
         width: 170px;
+        margin-top: 7rem;
     }
 
     .conteudo .nome-personagem {
@@ -54,10 +57,11 @@
 
     .botoes {
         padding: 20px;
-        top: -10%;
     }
     
     .personagem-btn-image {
         max-width: 50px;
     }
+
+    
 }
