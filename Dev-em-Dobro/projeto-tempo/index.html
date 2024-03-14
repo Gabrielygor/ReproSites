@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,41 @@
     <link rel="shortcut icon" href="src/image/sun.ico" type="image/x-icon">
 
 </head>
-<body>
-    
 
+<body>
+
+    <main class="container">
+
+        <div class="busca">
+            <input type="text" id="input-busca" class="input" placeholder="Digite uma Cidade">
+            <button class="btn-busca">
+                <img class="lupa" src="src/image/lupa.png" alt="Lupa de Busca">
+            </button>
+        </div>
+
+        <div class="informacao-principal">
+            <h1 id="cidade"> Use a lupa acima para pesquisar a cidade que deseja!</h1>
+            <p class="temperatura" id="temperatura"></p>
+            <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="Imagem padrao de tempo">
+            <p class="condicao" id="condicao"></p>
+        </div>
+
+        <div class="informacao-secundaria">
+            <div class="humidade">
+                <span>Humidade</span>
+                <span id="humidade">--</span>
+            </div>
+            <div class="velocidade-do-vento">
+                <span>Velocidade do vento</span>
+                <span id="velocidade-do-vento">--</span>
+            </div>
+
+        </div>
+
+    </main>
 
 
     <script src="src/js/script.js"></script>
 </body>
+
 </html>
