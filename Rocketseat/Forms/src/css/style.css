@@ -1,13 +1,21 @@
 
 :root {
-    --cor-fundo: #000;
-    --cor-fundo: #000;
-    --cor-fundo: #000;
-    --cor-fundo: #000;
-    --cor-fundo: #000;
+    --cor-fundo: #838181;
+    --cor-: #000;
+    --cor-: #000;
+    --cor-: #000;
+    --cor-: #000;
 }
 
 
 body {
     background-color: var(--cor-fundo);
+}
+
+table {
+    width: 100%;
+}
+
+thead{
+    text-align: left;
 }
