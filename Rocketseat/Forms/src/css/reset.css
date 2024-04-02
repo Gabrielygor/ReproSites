@@ -55,7 +55,7 @@ table {
     border-spacing: 0;
 }
 
-/* Set default styles for form elements */
+/* Set default styles for form elements */ 
 button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
