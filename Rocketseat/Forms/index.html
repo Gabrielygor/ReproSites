@@ -21,7 +21,23 @@
 
 </head>
 
-<body>
+<body class="ligth">
+
+
+    <form onsubmit="adicionarParticipante(event)">
+        <fieldset>
+            <legend>inscrição</legend>
+
+            <div>
+                <input type="text" placeholder="Nome Completo" name="nome" required>
+                <input type="email" placeholder="Email" name="email" required>
+
+                <button>
+                    Realizar Inscrição
+                </button>
+            </div>
+        </fieldset>
+    </form>
 
     <table>
         <thead>

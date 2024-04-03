@@ -7,9 +7,16 @@
     --cor-: #000;
 }
 
+.ligth {
+    --cor-fundo: #fff;
+}
 
 body {
     background-color: var(--cor-fundo);
+}
+
+.btn-check-in {
+    background-color: #000;
 }
 
 table {

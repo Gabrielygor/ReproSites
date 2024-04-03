@@ -66,7 +66,17 @@ let participantes = [
 const criarNovoParticipante = (participante) => {
     const dataInscricao = dayjs(Date.now()).to(participante.dataInscricao);
 
-    const dataCheckin = dayjs(Date.now()).to(participante.dataCheckin);
+    let dataCheckin = dayjs(Date.now()).to(participante.dataCheckin);
+
+    if (participante.dataCheckin == null) {
+        dataCheckin = `
+            <button class="btn-check-in" 
+            data-email="${participante.email}" 
+            onclick="fazerCheclIn(event)">
+                Confirmar Check - In
+            </button>
+        `;
+    }
 
     return `
         <tr>
@@ -85,8 +95,8 @@ const criarNovoParticipante = (participante) => {
 const atualizarLista = (participantes) => {
     let output = ""
 
-    for(let participante of participantes) {
-        output = output + criarNovoParticipante(participante)
+    for (let participante of participantes) {
+        output = output + criarNovoParticipante(participante);
     };
 
     document.querySelector('tbody').innerHTML = output;
@@ -96,3 +106,25 @@ const atualizarLista = (participantes) => {
 
 
 atualizarLista(participantes);
+
+
+const adicionarParticipante = (event) => {
+    event.preventDefault();
+
+    const dadosDoFormulario = new FormData(event.target);
+
+    const participante = {
+        nome: dadosDoFormulario.get("nome"),
+        email: dadosDoFormulario.get("email"),
+        dataInscricao: new Date(),
+        dataCheckin: null
+    }
+
+    participantes = [participante, ...participantes];
+
+    atualizarLista(participantes)
+}
+
+const fazerCheclIn = (event) => {
+    
+};
