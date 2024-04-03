@@ -120,11 +120,30 @@ const adicionarParticipante = (event) => {
         dataCheckin: null
     }
 
+    const participanteExiste = participantes.find((p) => p.email == participante.email 
+    );
+
+    if(participanteExiste) {
+        alert("Email já cadastrado")
+        return
+    }
+
+
     participantes = [participante, ...participantes];
 
-    atualizarLista(participantes)
-}
+    atualizarLista(participantes);
+
+    event.target.querySelector('[name="nome"]').value = "";
+    event.target.querySelector('[name="email"]').value = "";
+};
 
 const fazerCheclIn = (event) => {
-    
+
+    const participante = participantes.find((p) => {
+        return p.email == event.target.dataset.email
+    }); 
+
+    participante.dataCheckin = new Date();
+
+    atualizarLista(participantes);
 };
