@@ -1,9 +1,11 @@
 :root{
     --bg-color: #d2c9c9;
+    --title-color:#000;
 }
 
 .dark-theme {
-    background-color: #191818;
+    --bg-color: #191818;
+    --title-color:#fff;
 }
 
 body {
@@ -14,7 +16,12 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
+.title {
+    color: var(--title-color);
+}
