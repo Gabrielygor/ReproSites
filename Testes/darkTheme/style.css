@@ -1,6 +1,13 @@
-body {
-    background-color: #d2c9c9;
+:root{
+    --bg-color: #d2c9c9;
+}
 
+.dark-theme {
+    background-color: #191818;
+}
+
+body {
+    background-color: var(--bg-color);
 }
 
 .container {
@@ -11,6 +18,3 @@ body {
     justify-content: center;
 }
 
-.dark {
-    background-color: #191818;
-}
