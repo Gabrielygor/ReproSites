@@ -1,9 +1,19 @@
 :root{
     --background-color: #f0f0f0 ;
-    --bg-sidebar:#000 ;
+
+    --bg-sidebar:#ffffff ;
+    --sidebar-border: #ff0000;
+    --sidebar-button-text-color:#000000;
+    --sidebar-button-hover: #000;
 }
 
 .dark-mode {
     --background-color: #1c1b1b;
-    --bg-sidebar:#fff ;
+
+
+    /* SideBar Variables */
+    --bg-sidebar:#312f2f ;
+    --sidebar-border: #ff0000;
+    --sidebar-button-text-color:#ffffff;
+    --sidebar-button-hover: #ddd;
 }

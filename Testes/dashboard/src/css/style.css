@@ -1,0 +1,11 @@
+
+
+body{
+    background-color: var(--background-color);
+}
+
+
+.content {
+    margin-left: 240px;
+    height: 100%;
+}

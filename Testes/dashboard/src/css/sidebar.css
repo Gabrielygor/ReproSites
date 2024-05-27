@@ -1,0 +1,82 @@
+.sidebar {
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--sidebar-border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    gap: 30px;
+}
+
+.sidebar-header {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    min-height: 35px;
+    object-fit: cover;
+    transition: ease-in-out 0.5s;
+}
+
+.logo-img:hover {
+    transform: scale(1.5);
+}
+
+.sidebar-button {
+    color: var(--sidebar-button-text-color);
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    display: block;
+}
+
+.sidebar-button-span {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+    border-radius: 12px;
+    line-height: 1;
+    transition: all 0.4s;
+}
+
+.sidebar-button-span:hover {
+    background-color: var(--sidebar-button-hover);
+}
+
+.sidebar button i {
+    position: relative;
+    font-size: 28px;
+    transition: ease-in 0.2s;
+}
+
+.sidebar button span {
+    font-size: 16px;
+}
+
+.sidebar > nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-theme-div {
+    padding: 20px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 10%;
+}

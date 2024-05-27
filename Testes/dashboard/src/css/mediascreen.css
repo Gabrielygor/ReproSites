@@ -1,0 +1,32 @@
+
+
+@media(max-width:1000px){
+
+    body {
+        background-color: blue;
+    }
+
+    .sidebar {
+        width: 72px;
+    }
+
+    .logo-img {
+        width: 50px;
+        min-height: 35px;
+        object-fit: cover;
+        transition: ease-in-out 0.5s;
+    }
+    
+    .logo-img:hover {
+        transform: scale(1.5);
+    }
+
+    .sidebar button > span {
+        width: 50px;
+    }
+
+    .sidebar button > span > span {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
