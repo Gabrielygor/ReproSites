@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #fff;
+
+    /* Sidebar */
+    --bg-sidebar: #0e1167;
+    --sidebar-border:#000;
+    --bg-sidebar-button: #344dde;
+    --sidebar-button-text:#ffffff;
+    --bg-sidebar-button-hover: #6d81f3;
+    --sidebar-button-text-hover:#ffffff;
+}
+
+.dark-mode {
+    --bg-color: #000;
+    
+    /* Sidebar */
+    --bg-sidebar: #363333;
+    --sidebar-border:#ffffff;
+    --bg-sidebar-button: #000000;
+    --sidebar-button-text:#fff;
+    --bg-sidebar-button-hover: #ffffff;
+    --sidebar-button-text-hover:#000000;
+}
