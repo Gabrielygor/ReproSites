@@ -9,9 +9,13 @@
         width: 35px;
         transition: all 0.2s;
     }
-
-    .logo {
+    
+    .logo-normal{
         display: none;
+    }
+
+    .smal-logo{
+        display: block;
     }
 
     .sidebar-navigation-item{
