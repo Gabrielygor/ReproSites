@@ -1,16 +1,19 @@
 :root {
-    
+
     /* Sidebar */
     --bg-sidebar: #0e1167;
-    --sidebar-border:#000;
+    --sidebar-border: #000;
     --bg-sidebar-button: #344dde6f;
-    --sidebar-button-text:#ffffff;
+    --sidebar-button-text: #ffffff;
     --bg-sidebar-button-hover: #6d81f3;
-    --sidebar-button-text-hover:#ffffff;
-    
+    --sidebar-button-text-hover: #ffffff;
+
     /* Main */
     --bg-color: #fff;
-    --title-color:#000 ;
+    --title-color: #000;
+
+    /* Temperatura */
+    --bg-temperature: #ff0000;
 
 }
 
@@ -18,13 +21,16 @@
 
     /* Sidebar */
     --bg-sidebar: #363333;
-    --sidebar-border:#ffffff;
+    --sidebar-border: #ffffff;
     --bg-sidebar-button: #00000054;
-    --sidebar-button-text:#fff;
+    --sidebar-button-text: #fff;
     --bg-sidebar-button-hover: #ffffff;
-    --sidebar-button-text-hover:#000000;
+    --sidebar-button-text-hover: #000000;
 
     /* Main */
     --bg-color: #000;
-    --title-color:#fff ;
+    --title-color: #fff;
+
+    /* Temperatura */
+    --bg-temperature: #ff0000;
 }
