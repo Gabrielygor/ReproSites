@@ -1,10 +1,22 @@
 
 body {
+    height: 100vh;
     background-color: var(--bg-color);
 }
 
 .main {
+    margin: 0 0 0 230px;
+}
 
-    margin: 0 0 0 250px;
+.main .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
 
+.main .title > h1 {
+    color: var(--title-color);
+    font-size: 32px;
+    font-weight: bold;
 }

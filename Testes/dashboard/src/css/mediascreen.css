@@ -25,4 +25,9 @@
     .sidebar-navigation-item-text{
         display: none;
     }
+
+    .main {
+        margin-left: 120px;
+    }
+
 }

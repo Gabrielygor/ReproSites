@@ -1,6 +1,5 @@
 :root {
-    --bg-color: #fff;
-
+    
     /* Sidebar */
     --bg-sidebar: #0e1167;
     --sidebar-border:#000;
@@ -8,11 +7,15 @@
     --sidebar-button-text:#ffffff;
     --bg-sidebar-button-hover: #6d81f3;
     --sidebar-button-text-hover:#ffffff;
+    
+    /* Main */
+    --bg-color: #fff;
+    --title-color:#000 ;
+
 }
 
 .dark-mode {
-    --bg-color: #000;
-    
+
     /* Sidebar */
     --bg-sidebar: #363333;
     --sidebar-border:#ffffff;
@@ -20,4 +23,8 @@
     --sidebar-button-text:#fff;
     --bg-sidebar-button-hover: #ffffff;
     --sidebar-button-text-hover:#000000;
+
+    /* Main */
+    --bg-color: #000;
+    --title-color:#fff ;
 }
