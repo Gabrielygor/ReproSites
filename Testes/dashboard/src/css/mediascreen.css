@@ -4,4 +4,21 @@
     body{
         background-color:var(--bg-color);
     }
+
+    .sidebar {
+        width: 30px;
+        transition: all 0.2s;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .sidebar-navigation-item{
+        width: 40px;
+    }
+
+    .sidebar-navigation-item-text{
+        display: none;
+    }
 }
