@@ -14,7 +14,9 @@
 
     /* Temperatura */
     --bg-temperature: #ff0000;
-
+    --bg-humidade:#0048ff;
+    --bg-pressao:#fcdf00;
+    
 }
 
 .dark-mode {
@@ -33,4 +35,8 @@
 
     /* Temperatura */
     --bg-temperature: #ff0000;
+    --bg-humidade:#0048ff;
+    --bg-pressao:#fcdf00;
+
+
 }

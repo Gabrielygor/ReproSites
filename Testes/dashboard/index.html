@@ -22,8 +22,10 @@
 
     <aside class="sidebar">
         <div class="logo">
-            <img src="https://minhabiblioteca.com.br/wp-content/uploads/2021/04/ufrn-logo.png" alt="UFRN-logo" class="logo-normal">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Brasao_UFRN.PNG/200px-Brasao_UFRN.PNG" alt="UFRN-logo" class="smal-logo">
+            <img src="https://minhabiblioteca.com.br/wp-content/uploads/2021/04/ufrn-logo.png" alt="UFRN-logo"
+                class="logo-normal">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Brasao_UFRN.PNG/200px-Brasao_UFRN.PNG"
+                alt="UFRN-logo" class="smal-logo">
         </div>
 
         <nav class="sidebar-navigation">
@@ -74,9 +76,29 @@
 
         <div class="container">
 
-            <div class="temperature">
-                <h2 class="temperature-title">
+            <div class="card temperature">
+                <h2 class="container-card-title">
                     Temeperatura
+                </h2>
+
+                <div id="temperature-value">
+
+                </div>
+            </div>
+
+            <div class="card humidade">
+                <h2 class="container-card-title">
+                    Humidade
+                </h2>
+
+                <div>
+
+                </div>
+            </div>
+
+            <div class="card pressao">
+                <h2 class="container-card-title">
+                    Pressão
                 </h2>
 
                 <div>
@@ -85,12 +107,12 @@
             </div>
 
 
-
         </div>
     </main>
 
 
     <script src="src/js/script.js"></script>
+    <script src="src/js/thingspeakapi.js"></script>
 </body>
 
 </html>
