@@ -30,6 +30,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    cursor: auto;
 }
 
 .container-card-title {
@@ -46,6 +47,14 @@ body {
     border-radius: 8px;
     padding: 30px;
     margin: 10px;
+}
+
+.container-card-title-value{
+    background-color: var(--bg-card-value);
+    padding: 14px;
+    border-radius: 16px;
+    margin: 24px;
+    font-weight: bold;
 }
 
 .temperature {

@@ -12,11 +12,11 @@
     --bg-color: #fff;
     --title-color: #000;
 
-    /* Temperatura */
+    /* Cards */
     --bg-temperature: #ff0000;
     --bg-humidade:#0048ff;
     --bg-pressao:#fcdf00;
-    
+    --bg-card-value: #fff;
 }
 
 .dark-mode {
@@ -33,10 +33,11 @@
     --bg-color: #000;
     --title-color: #fff;
 
-    /* Temperatura */
+    /* Cards */
     --bg-temperature: #ff0000;
     --bg-humidade:#0048ff;
     --bg-pressao:#fcdf00;
+    --bg-card-value: #fff;
 
 
 }
