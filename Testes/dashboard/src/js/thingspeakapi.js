@@ -3,8 +3,8 @@ async function fetchData() {
     const chanelID = '128756'
 
     const urlTemperature = `https://api.thingspeak.com/channels/${chanelID}/fields/2/last.json`;
-    const urlHumidity = `https://api.thingspeak.com/channels/${chanelID}/fields/2/last.json`;
-    const urlPresAtmospheric = `https://api.thingspeak.com/channels/${chanelID}/fields/3/last.json`;
+    const urlHumidity = `https://api.thingspeak.com/channels/${chanelID}/fields/3/last.json`;
+    const urlPresAtmospheric = `https://api.thingspeak.com/channels/${chanelID}/fields/4/last.json`;
 
     try {
         const responseTemperature = await fetch(urlTemperature);
@@ -13,11 +13,11 @@ async function fetchData() {
         
         const responseHumidity = await fetch(urlHumidity);
         const dataHumidity = await responseHumidity.json();
-        const humidity = dataHumidity.field2;
+        const humidity = dataHumidity.field3;
 
         const responsePresAtmospheric = await fetch(urlPresAtmospheric);
         const dataPresAtmospheric = await responsePresAtmospheric.json();
-        const presAtmospheric = dataPresAtmospheric.field3;
+        const presAtmospheric = dataPresAtmospheric.field4;
         
         document.getElementById('temperature-value').textContent = `${temperature}°C`;
         document.getElementById('humidity-value').textContent = `${humidity}%`;
