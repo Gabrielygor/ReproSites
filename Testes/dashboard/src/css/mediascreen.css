@@ -1,28 +1,26 @@
-
-
 @media(max-width:1000px) {
-    body{
-        background-color:var(--bg-color);
+    body {
+        background-color: var(--bg-color);
     }
 
     .sidebar {
         width: 35px;
         transition: all 0.2s;
     }
-    
-    .logo-normal{
+
+    .logo-normal {
         display: none;
     }
 
-    .smal-logo{
+    .smal-logo {
         display: block;
     }
 
-    .sidebar-navigation-item{
+    .sidebar-navigation-item {
         width: 40px;
     }
 
-    .sidebar-navigation-item-text{
+    .sidebar-navigation-item-text {
         display: none;
     }
 
@@ -31,3 +29,12 @@
     }
 
 }
+
+
+@media(max-width:1700px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+}   
