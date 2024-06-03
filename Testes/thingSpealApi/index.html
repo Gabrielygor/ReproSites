@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando API ThingSpeak</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1 class="title">API Thing Speak</h1>
+        <h2 class="id-api">Id do canal publico 1293177</h2>
+
+        <div class="container">
+            <h1>Últimas Leituras</h1>
+            <div id="data" class="data-container"></div>
+            <canvas id="temperatureChart" width="1000" height="500"></canvas>
+        </div>
+        
+        <p class="text">
+            Usando a API ThingSpeak para recuperar dados de uma estação meteorológica em San Diego
+        </p>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
